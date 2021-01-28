@@ -1,0 +1,98 @@
+body{
+    background-color:#FAFAFA;
+}
+
+.container{
+    position:absolute;
+  left:50%; 
+  margin-left:-100px; /*this is half of width of your div*/
+  width:300px;
+}
+
+.search-input{
+    padding: 2em;
+-webkit-box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
+-moz-box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
+box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
+    margin-top:10px;
+    padding:5px;
+    border:1px solid #fff;
+    border-radius:5px;
+    width:250px;
+    height:30px;
+}
+
+.selectedListBox{
+    padding: 2em;
+-webkit-box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
+-moz-box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
+box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
+    margin-top:10px;
+    padding:5px;
+    border:1px solid #fff;
+    border-radius:5px;
+    width:250px;
+}
+
+
+.searchedResults{
+    display:none;
+        border:1px solid #fff;
+    border-top:none;
+    width:260px;
+    position:absolute;
+    background:white;
+    border:1px solid #898989;
+    border-top:none;
+    z-index:1000;
+}
+
+.selectedListBox .title{
+    color:#A0A0A0;
+    font-size:14px;
+    padding:5px;
+}
+
+.hlight{
+    background-color: #BFBFBF;
+}
+
+
+.search-item{
+    width:260px;
+    border-bottom:1px solid #898989;
+}
+
+.hlight div, .search-item div{
+    padding:10px;
+}
+
+
+
+.selected-list-con{
+    height:50px;
+}
+
+.selected-list-item{
+    float:left;
+}
+
+.close{
+    float:right;
+    border: 1px solid #bfbfbf;
+    /* padding: 5px; */
+    border-radius: 10px;
+    position: relative;
+    top: -4px;
+    height: 19px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #BFBFBF;
+    color: white;
+    cursor: pointer;
+}
+
+.clear{
+    clear:both;
+}
